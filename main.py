@@ -3,14 +3,12 @@ import telebot
 from Bd.presets.keyboards import *
 from Bd.libraries.lib import *
 
-from data.json_work import read
+from Bd.data.json_work import read
 from Bd.libraries.registration import *
 
-
 # bot configuration
-token = '5421671179:AAFLiNjDx55fJznLjLDn-g8xZaC6bzoF8t4'
+token = '5875782132:AAGgAczupLHHlP569bfyvlWewtEvjSjq3_E'
 bot: telebot.TeleBot = telebot.TeleBot(token)
-
 
 # shortcuts
 main_text = 'Если хочешь задать вопрос или проконсультироваться жми на кнопку «Обратная связь»'

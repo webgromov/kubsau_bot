@@ -48,7 +48,7 @@ def read(name):
 
     :return: dict
     """
-    f = open(f'data/gen/{name}.json', encoding='utf-8')
+    f = open(f'Bd/data/gen/{name}.json', encoding='utf-8')
 
     res = json.load(f)['asks']
     for i in res:
